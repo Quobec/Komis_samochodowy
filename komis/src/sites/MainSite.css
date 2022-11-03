@@ -1,7 +1,30 @@
-.body{
-    margin: 0px;
+.nav_bar{
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    background-color: #333333;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav_bar{
-    display: inline-block;
+.nav_button{
+    display: inline-flex;
+    height: fit-content;
+    width: fit-content;
+    min-width: 200px;
+    padding: 10px;
+    border: #fff 2px solid;
+    border-radius: 10px;
+    margin: 25px;
+    color: #fff;
+    font-size: 22px;
+    justify-content: center;
+    box-shadow: 8px 5px 0px #000;
+    transition: 0.5s;
+}
+
+.nav_button:hover{
+    background-color: #777575;
 }

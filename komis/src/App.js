@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import './App.css';
+import MainSite from './sites/MainSite';
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
 		case 'MainSite':
 			return (
 				<>
-					
+					<MainSite changeSite={setCurrentSite}></MainSite>
 				</>
 			);
 		default:
